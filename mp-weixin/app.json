@@ -1,0 +1,108 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/recharge/recharge",
+    "pages/address/detail",
+    "pages/address/list",
+    "pages/cart/list",
+    "pages/cart/list2",
+    "pages/cart/add-or-update",
+    "pages/cart/detail",
+    "pages/chat/list",
+    "pages/chat/list2",
+    "pages/chat/add-or-update",
+    "pages/chat/detail",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/meishi/list",
+    "pages/meishi/list2",
+    "pages/meishi/add-or-update",
+    "pages/meishi/detail",
+    "pages/meishiCollection/list",
+    "pages/meishiCollection/list2",
+    "pages/meishiCollection/add-or-update",
+    "pages/meishiCollection/detail",
+    "pages/meishiCommentback/list",
+    "pages/meishiCommentback/list2",
+    "pages/meishiCommentback/add-or-update",
+    "pages/meishiCommentback/detail",
+    "pages/meishiOrder/list",
+    "pages/meishiOrder/add-or-update",
+    "pages/meishiOrder/confirm",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/list2",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "美食推荐系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#54C0CC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/meishi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "商品"
+      },
+      {
+        "pagePath": "pages/shangjia/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "餐厅"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
